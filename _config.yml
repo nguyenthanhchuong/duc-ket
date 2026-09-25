@@ -1,0 +1,15 @@
+title: Đúc Kết
+description: Ghi chép và đúc kết từ những gì đọc được, học được.
+lang: vi
+
+theme: minima
+minima:
+  skin: dark
+  date_format: "%d/%m/%Y"
+
+plugins:
+  - jekyll-feed
+
+permalink: /:year/:month/:day/:title/
+
+show_excerpts: true
