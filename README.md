@@ -13,5 +13,8 @@ Jekyll, xuất bản qua GitHub Pages.
 
 ## Giao diện
 
-Dùng theme [minima](https://github.com/jekyll/minima) (bản `dark`), cấu hình
-trong `_config.yml`.
+Layout và CSS tự viết riêng (`_layouts/`, `assets/css/style.css`), theo đúng
+quy ước thiết kế chung của các trang khác: font hệ thống, thẻ (card) phẳng
+viền 1px, bo góc 14px, hỗ trợ cả giao diện sáng/tối theo
+`prefers-color-scheme`. Màu nhấn tím indigo (`#6c5ce7` / `#a29bfe` ở chế độ
+tối) — không trùng màu với app nào khác.

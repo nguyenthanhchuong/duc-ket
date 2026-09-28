@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-meta">
+    <time>{{ page.date | date: "%d/%m/%Y" }}</time>
+    {% if page.tags.size > 0 %}
+      {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    {% endif %}
+  </div>
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <a class="back-link" href="{{ '/' | relative_url }}">← Về trang chủ</a>
+</article>
